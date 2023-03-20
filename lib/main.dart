@@ -66,7 +66,8 @@ class _DestiniPageState extends State<DestiniPage> {
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Rubik',
+                  fontStyle: FontStyle.italic,
                   fontSize: 25.0,
                 ),
               ),
@@ -84,6 +85,8 @@ class _DestiniPageState extends State<DestiniPage> {
                 storyBrain.getChoice1(),
                 style: TextStyle(
                   color: Colors.white,
+                  fontFamily: 'Rubik',
+                  fontStyle: FontStyle.italic,
                   fontSize: 20.0,
                 ),
               ),
@@ -106,7 +109,9 @@ class _DestiniPageState extends State<DestiniPage> {
                   storyBrain.getChoice2(),
                   style: TextStyle(
                     color: Colors.white,
+                    fontStyle: FontStyle.italic,
                     fontSize: 20.0,
+                    fontFamily: 'Rubik',
                   ),
                 ),
                 style: ButtonStyle(
