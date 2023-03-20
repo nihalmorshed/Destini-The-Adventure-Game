@@ -77,7 +77,7 @@ flutter:
     - family: Rubik
       fonts:
         - asset: fonts/RubikMarkerHatch-Regular.ttf
-          style: italic
+          
     - family: LilitaOne
       fonts:
         - asset: fonts/LilitaOne-Regular.ttf
